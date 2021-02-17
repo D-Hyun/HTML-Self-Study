@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lee Ufan</title>
+  <style>
+#active
+{color:red;}
+.saw{color:green;}
+    body{ margin:0; }
+a { color:black; text-decoration: none; }
+h1 { font-size:45px; text-align : center; border-bottom:1px solid gray; margin:0; padding:20px; }
+ol{ border-left:10px; width:125px; margin:0; padding:25px; }
+</style>
+  <h1>Lee Ufan</h1>
+  <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20201214_277%2F1607941488674onRwK_PNG%2F9077323500368472_1447773964.png&type=sc960_832">
+  <ol>
+    <br><input type="button"value="On"
+    onclick="alert('click on')">
+    <input type="text"
+     onchange="alert('changed')">
+  <input type="text"
+  onkeydown="alert('key down!')">
+  </br>
+    <li><a href="https://terms.naver.com/entry.nhn?docId=1201886&cid=40942&categoryId=34387"
+    style= "text-decoration : none" class="saw"> About Lee Ufan</a></li>
+    <li><a href="exhibition"style="color : sky blue;
+      text-decoration : none " class="saw" id="active">Exhibition</a></li>
+    <li>Art works</li>
+
+
+
+        <p>
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://weolkeulbangtanideul.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/601ba09fa9a34e36b973ad8e/1etlumsdn';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GWR8LLCQ9E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GWR8LLCQ9E');
+</script>
+    </body>
+</head>
+</html>
